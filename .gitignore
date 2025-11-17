@@ -1,0 +1,46 @@
+# ----- Node -----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# ----- TypeScript -----
+dist/
+build/
+*.tsbuildinfo
+
+# ----- Logs -----
+logs/
+*.log
+logs/*.log
+
+# ----- Environment / Secrets -----
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# ----- OS / Editor Files -----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ----- Coverage / Testing -----
+coverage/
+.nyc_output/
+
+# ----- Temporary Files -----
+tmp/
+temp/
+*.tmp
+
+# ----- Misc -----
+*.bak
+*~
+
+# ----- Linux / macOS cache -----
+.cache/
