@@ -2,12 +2,10 @@
   "name": "workspace-booking-backend",
   "version": "1.0.0",
   "main": "dist/server.js",
-  "scripts": {
-    "start": "node dist/server.js",
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "build": "tsc",
-    "seed": "ts-node-dev src/seedRooms.ts"
-  },
+"scripts": {
+  "start": "node dist/server.js",
+  "build": "tsc"
+},
   "dependencies": {
     "cors": "^2.8.5",
     "dayjs": "^1.11.9",
